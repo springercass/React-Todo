@@ -1,3 +1,11 @@
 import React from "react";
-import { toUnicode } from "punycode";
+
+const Todo = props => {
+  return (
+    <div>
+      <p>{props.task.task}</p>
+    </div>
+  );
+};
+
 export default Todo;

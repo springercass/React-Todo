@@ -11,7 +11,7 @@ function TodoForm(props) {
         onChange={e => props.changeHandler(e)}
       />
       <button>Submit</button>
-      <button>Clear Completed</button>
+      <button onClick={props.clearTodo}>Clear Completed</button>
     </form>
   );
 }
